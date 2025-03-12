@@ -1,0 +1,13 @@
+prefix=D:/Subramanya/Personal_Projects/Auto_Documentation/venv/Library
+exec_prefix=D:/Subramanya/Personal_Projects/Auto_Documentation/venv/Library
+libdir=D:/Subramanya/Personal_Projects/Auto_Documentation/venv/Library/lib
+sharedlibdir=D:/Subramanya/Personal_Projects/Auto_Documentation/venv/Library/lib
+includedir=D:/Subramanya/Personal_Projects/Auto_Documentation/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
